@@ -1,0 +1,78 @@
+.custom-pagination {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .custom-pagination .page-item {
+    margin: 0 5px; /* Add space between pagination buttons */
+  }
+  
+  .custom-pagination .page-item:nth-child(4) {
+    border-right: 1px dotted #000;
+    padding-right: 10px;
+    margin-right: 15px;
+  }
+
+  /* .queue-summary {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  } */
+  
+  /* .queue-item {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  
+  .queue-name {
+    margin-right: 8px;
+    font-weight: bold;
+  }
+  
+  .queue-badge {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 15px;
+    font-size: 14px;
+    min-width: 50px;
+    text-align: center;
+  } */
+
+  .queue-item.helpdesk {
+    background-color: #e57373; /* Thick Red */
+  }
+  
+  .queue-item.unconsumedmessages {
+    background-color: #4caf50; /* Thick Green */
+  }
+  
+  .queue-item.fieldrepresentative {
+    background-color: #64b5f6; /* Thick Light Blue */
+  }
+  
+  .queue-item.sitemanager {
+    background-color: #ffeb3b; /* Thick Yellow */
+  }
+  
+  .queue-item.fieldmanager {
+    background-color: #ba68c8; /* Thick Purple */
+  }
+  
+  .queue-item.default {
+    background-color: #ff9800; /* Thick Orange */
+  }
+  
+  .queue-item.crm {
+    background-color: #f06292; /* Thick Pink */
+  }
+  
+  .queue-item.ticketanalysis {
+    background-color: #90a4ae; /* Thick Grey */
+  }
+  
